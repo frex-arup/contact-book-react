@@ -27,15 +27,15 @@ const Header = () => {
     <nav className="menuBar">
       <div className="row">
         <div className="col-sm-12">
-          <ul className="nav navbar justify-content-center  " style={{gap: 20}}><a className="navbar-brand" href="/">
+          <ul className="nav navbar justify-content-center  " style={{gap: 20}}><a className="navbar-brand" to="/">
               <img src={logo} style={{height: 150, objectFit: 'contain'}} alt="Bootstrap" /></a>
             {/* <div class="dropdown">
                           <button class="dropbtn">Product <i class="fa fa-caret-down"></i>
                           </button>
                           <div class="dropdown-content">
-                              <a href="#">Link 1</a>
-                              <a href="#">Link 2</a>
-                              <a href="#">Link 3</a>
+                              <a to="#">Link 1</a>
+                              <a to="#">Link 2</a>
+                              <a to="#">Link 3</a>
                           </div>
                       </div>
                       <div class="dropdown">
@@ -43,9 +43,9 @@ const Header = () => {
                                </i>
                       </button>
                           <div class="dropdown-content">
-                              <a href="#">Link 1</a>
-                              <a href="#">Link 2</a>
-                              <a href="#">Link 3</a>
+                              <a to="#">Link 1</a>
+                              <a to="#">Link 2</a>
+                              <a to="#">Link 3</a>
                           </div>
                       </div>
                       <div class="dropdown">
@@ -53,9 +53,9 @@ const Header = () => {
                           </i>
                       </button>
                           <div class="dropdown-content">
-                              <a href="#">Link 1</a>
-                              <a href="#">Link 2</a>
-                              <a href="#">Link 3</a>
+                              <a to="#">Link 1</a>
+                              <a to="#">Link 2</a>
+                              <a to="#">Link 3</a>
                           </div>
                       </div>
                       <div class="dropdown">
@@ -63,24 +63,24 @@ const Header = () => {
                           </i>
                       </button>
                           <div class="dropdown-content">
-                              <a href="#">Link 1</a>
-                              <a href="#">Link 2</a>
-                              <a href="#">Link 3</a>
+                              <a to="#">Link 1</a>
+                              <a to="#">Link 2</a>
+                              <a to="#">Link 3</a>
                           </div>
                       </div> */}
             <li className="nav-item">
-              <Link className="nav-link" href="#" style={{color: 'rgb(0, 0, 0)'}}>Home</Link>
+              <Link className="nav-link" to="/" style={{color: 'rgb(0, 0, 0)'}}>Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="#" style={{color: 'rgb(0, 0, 0)'}}>View All</Link>
+              <Link className="nav-link" to="/ViewAll" style={{color: 'rgb(0, 0, 0)'}}>View All</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="#" style={{color: 'rgb(0, 0, 0)'}}>Create</Link>
+              <Link className="nav-link" to="/Create" style={{color: 'rgb(0, 0, 0)'}}>Create</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="#" style={{color: 'rgb(0, 0, 0)'}}>Developer</Link>
+              <Link className="nav-link" to="/Developer" style={{color: 'rgb(0, 0, 0)'}}>Developer</Link>
             </li>
-            <Link href><button className="custom-btn btn-3"><span>GET A QUOTE</span></button></Link>
+            <Link to><button className="custom-btn btn-3"><span>GET A QUOTE</span></button></Link>
           </ul>
         </div>
       </div>
@@ -88,11 +88,11 @@ const Header = () => {
   </div>
   <div id="header1">
     <div id="mySidenav" className="sidenav">
-      <Link href="javascript:void(0)" className="closebtn" onclick="closeNav()">×</Link>
-      <Link href="#">Home</Link>
-      <Link href="#">View All</Link>
-      <Link href="#">Create</Link>
-      <Link href="#">Developer</Link>
+      <Link to="javascript:void(0)" className="closebtn" onclick="closeNav()">×</Link>
+      <Link to="#">Home</Link>
+      <Link to="#">View All</Link>
+      <Link to="#">Create</Link>
+      <Link to="#">Developer</Link>
     </div>
     <div id="main">
       
