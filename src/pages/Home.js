@@ -256,7 +256,7 @@ const Home = () => {
             <div className="row pt-4">
               <div className="col-lg-6">
                 <div className="service-img">
-                  <img src={whychooseusimg} alt />
+                  <img src={whychooseusimg} style={{width: '-webkit-fill-available'}} alt />
                 </div>
               </div>
               <div className="col-lg-6">
@@ -282,7 +282,7 @@ const Home = () => {
             <div className="row pt-4">
               <div className="col-lg-6">
                 <div className="service-img">
-                  <img src={whychooseusimg} alt />
+                  <img src={whychooseusimg} style={{width: '-webkit-fill-available'}} alt />
                 </div>
               </div>
               <div className="col-lg-6">
@@ -308,7 +308,7 @@ const Home = () => {
             <div className="row pt-4">
               <div className="col-lg-6">
                 <div className="service-img">
-                  <img src={whychooseusimg} alt />
+                  <img src={whychooseusimg}style={{width: '-webkit-fill-available'}}alt />
                 </div>
               </div>
               <div className="col-lg-6">
@@ -334,7 +334,7 @@ const Home = () => {
             <div className="row pt-4">
               <div className="col-lg-6">
                 <div className="service-img">
-                  <img src={whychooseusimg} alt />
+                  <img src={whychooseusimg}style={{width: '-webkit-fill-available'}} alt />
                 </div>
               </div>
               <div className="col-lg-6">
@@ -360,7 +360,7 @@ const Home = () => {
             <div className="row pt-4">
               <div className="col-lg-6">
                 <div className="service-img">
-                  <img src={whychooseusimg} alt />
+                  <img src={whychooseusimg}style={{width: '-webkit-fill-available'}} alt />
                 </div>
               </div>
               <div className="col-lg-6">
