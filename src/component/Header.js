@@ -24,10 +24,10 @@ const Header = () => {
         <>
        <div>
   <div id="header">
-    <nav className="menuBar">
-      <div className="row">
+   
+      
         <div className="col-sm-12">
-          <ul className="nav navbar justify-content-center  " style={{gap: 20}}><a className="navbar-brand" to="/">
+          <ul className="nav navbar justify-content-center  " style={{gap: 30}}><a className="navbar-brand" to="/">
               <img src={logo} style={{height: 150, objectFit: 'contain'}} alt="Bootstrap" /></a>
             {/* <div class="dropdown">
                           <button class="dropbtn">Product <i class="fa fa-caret-down"></i>
@@ -84,7 +84,7 @@ const Header = () => {
           </ul>
         </div>
       </div>
-    </nav>
+   
   </div>
   <div id="header1">
     <div id="mySidenav" className="sidenav">
@@ -99,7 +99,7 @@ const Header = () => {
       <span style={{fontSize: 30, cursor: 'pointer'}} onclick="openNav()">☰ open</span>
     </div>
   </div>
-</div>
+
 
         </>
     </div>
