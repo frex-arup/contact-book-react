@@ -966,6 +966,16 @@ a{
 }
 
 /* Devloper section */
+/*=================developer page=============*/
+.borderstyle{
+  border: 1px solid #5f5858;
+}
+.borderstyle1{
+  border: 1px solid #5f5858;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
 
 .developer-img {
   width: 100%;
@@ -973,20 +983,23 @@ a{
   object-fit: contain;
   top: -50px;
   position: relative;
+  cursor: pointer;
   /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
   /* border-radius: 50%; */
-}
-
-/*=================developer page=============*/
-
-
-
-
-.developer-img{
-  width: -webkit-fill-available;
+  transition: transform calc(0.3s);
 }
 
 
+.developer-img:hover{
+  transform: scale(1.09);
+}
+
+.list-inline-item{
+  transition: transform calc(0.3s);
+}
+.list-inline-item:hover{
+  transform: scale(1.3);
+}
 /*=============== 3d Spinning carousel=============== */
 
 

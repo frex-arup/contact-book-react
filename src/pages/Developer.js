@@ -15,11 +15,11 @@ const Developer = () => {
        <>
 
 <div className="container mt-5">
-      <div className="row">
+      <div className="row borderstyle">
           <div className="col-md-6">
               <img src={Nigam} alt="Developer" className="developer-img" />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6" style={{paddingTop:"70px"}}>
               <h1>About the Developer</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor accumsan tincidunt.
                   Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit tortor,
@@ -27,10 +27,14 @@ const Developer = () => {
                   Pellentesque in ipsum id orci porta dapibus.</p>
               <p>Social Media:</p>
               <ul className="list-inline">
-                  <li className="list-inline-item"><a href="#"><img src={Facebook} alt="Facebook" width="40" /></a></li>
-                  <li className="list-inline-item"><a href="#"><img src={Instagram} alt="Instagram" width="30" /></a></li>
-                  <li className="list-inline-item"><a href="#"><img src={GitHub} alt="GitHub" width="50" /></a></li>
-                  <li className="list-inline-item"><a href="#"><img src={LinkedIn} alt="LinkedIn" width="40" /></a></li>
+                  <li className="list-inline-item">
+                    <a href="#"><img src={Facebook} alt="Facebook" width="40" /></a></li>
+                  <li className="list-inline-item">
+                    <a href="#"><img src={Instagram} alt="Instagram" width="30" /></a></li>
+                  <li className="list-inline-item">
+                    <a href="#"><img src={GitHub} alt="GitHub" width="50" /></a></li>
+                  <li className="list-inline-item">
+                    <a href="#"><img src={LinkedIn} alt="LinkedIn" width="40" /></a></li>
               </ul>
           </div>
   </div>
@@ -40,11 +44,11 @@ const Developer = () => {
 
 <>
 <div className="container mt-5">
-      <div className="row">
+      <div className="row borderstyle">
           <div className="col-md-6">
               <img src={Nigam} alt="Developer" className="developer-img" />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6"style={{paddingTop:"70px"}}>
               <h1>About the Developer</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor accumsan tincidunt.
                   Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit tortor,
@@ -52,10 +56,14 @@ const Developer = () => {
                   Pellentesque in ipsum id orci porta dapibus.</p>
               <p>Social Media:</p>
               <ul className="list-inline">
-                  <li className="list-inline-item"><a href="#"><img src={Facebook} alt="Facebook" width="40" /></a></li>
-                  <li className="list-inline-item"><a href="#"><img src={Instagram} alt="Instagram" width="30" /></a></li>
-                  <li className="list-inline-item"><a href="#"><img src={GitHub} alt="GitHub" width="50" /></a></li>
-                  <li className="list-inline-item"><a href="#"><img src={LinkedIn} alt="LinkedIn" width="40" /></a></li>
+                  <li className="list-inline-item">
+                    <a href="#"><img src={Facebook} alt="Facebook" width="40" /></a></li>
+                  <li className="list-inline-item">
+                    <a href="#"><img src={Instagram} alt="Instagram" width="30" /></a></li>
+                  <li className="list-inline-item">
+                    <a href="#"><img src={GitHub} alt="GitHub" width="50" /></a></li>
+                  <li className="list-inline-item">
+                    <a href="#"><img src={LinkedIn} alt="LinkedIn" width="40" /></a></li>
               </ul>
           </div>
   </div>
@@ -63,11 +71,11 @@ const Developer = () => {
 </>
 <>
 <div className="container mt-5">
-      <div className="row">
+      <div className="row borderstyle1">
           <div className="col-md-6">
               <img src={Nigam} alt="Developer" className="developer-img" />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6" style={{paddingTop:"70px"}}>
               <h1>About the Developer</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor accumsan tincidunt.
                   Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit tortor,
