@@ -944,6 +944,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+a{
+  text-decoration: none;
+}
+
+
 /*************footer End*****************/
 
 
@@ -956,6 +961,17 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   text-align: center;
+}
+
+
+
+/*=================developer page=============*/
+
+
+
+
+.developer-img{
+  width: -webkit-fill-available;
 }
 
 
