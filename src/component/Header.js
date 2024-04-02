@@ -119,21 +119,28 @@ const Header = () => {
             <Link
               to="javascript:void(0)"
               className="closebtn"
-              onclick="closeNav()"
+              onClick={closeNav}
             >
               ×
             </Link>
-            <Link to="#">Home</Link>
-            <Link to="#">View All</Link>
-            <Link to="#">Create</Link>
-            <Link to="#">Developer</Link>
+            <Link to="/">Home</Link>
+            <Link to="/ViewAll">View All</Link>
+            <Link to="/Create">Create</Link>
+            <Link to="/Developer">Developer</Link>
           </div>
           <div id="main">
-            <span
+            {/* <span
               style={{ fontSize: 30, cursor: "pointer" }}
               onclick="openNav()"
             >
               ☰ open
+            </span> */}
+            <span style={{ fontSize: 30, cursor: "pointer" }} onClick={openNav}>
+              ☰ <img
+                    src={logo}
+                    style={{ height: 150, objectFit: "contain" }}
+                    alt="Bootstrap"
+                  />
             </span>
           </div>
         </div>

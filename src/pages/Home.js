@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import aboutimage from "../image/aboutimage2.jpg";
 import features from "../image/features.jpg";
 import whychooseusimg from "../image/image1.avif";
+import Gallery from "../component/Gallery";
 
 const Home = () => {
   const settings1 = {
@@ -761,6 +762,16 @@ const Home = () => {
             </div>
           </div>
         </section>
+      </>
+
+
+      <>
+
+     <div className="container-fluid backdesign">
+      <h1 className="text-center">Our Core Features</h1>
+      <Gallery/>
+      
+      </div>
       </>
     </div>
   );
