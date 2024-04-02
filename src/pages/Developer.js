@@ -1,10 +1,12 @@
 import React from 'react'
-import img8 from'../image/IMG_20230810_203433_0515.jpg';
-import img2 from '../image/facebooklogo.webp';
-import img3 from '../image/image.png';
-import img4 from '../image/download.png';
-import img5 from '../image/download (1).png';
-import img1 from "../image/cardimage.avif";
+import Nigam from'../image/IMG_20230810_203433_0515.jpg';
+import Facebook from '../image/facebooklogo.webp';
+import Instagram from '../image/image.png';
+import GitHub from '../image/download.png';
+import LinkedIn from '../image/download (1).png';
+// import img1 from "../image/cardimage.avif";
+// import nigam from "../image/Nigam.jpg";
+
 // import img6 from "../image/logo.avif";
 
 const Developer = () => {
@@ -15,7 +17,7 @@ const Developer = () => {
 <div className="container mt-5">
       <div className="row">
           <div className="col-md-6">
-              <img src={img8} alt="Developer" className="developer-img" />
+              <img src={Nigam} alt="Developer" className="developer-img" />
           </div>
           <div className="col-md-6">
               <h1>About the Developer</h1>
@@ -25,10 +27,10 @@ const Developer = () => {
                   Pellentesque in ipsum id orci porta dapibus.</p>
               <p>Social Media:</p>
               <ul className="list-inline">
-                  <li className="list-inline-item"><a href="#"><img src={img2} alt="Facebook" width="40" /></a></li>
-                  <li className="list-inline-item"><a href="#"><img src={img3} alt="Instagram" width="30" /></a></li>
-                  <li className="list-inline-item"><a href="#"><img src={img4} alt="GitHub" width="50" /></a></li>
-                  <li className="list-inline-item"><a href="#"><img src={img5} alt="LinkedIn" width="40" /></a></li>
+                  <li className="list-inline-item"><a href="#"><img src={Facebook} alt="Facebook" width="40" /></a></li>
+                  <li className="list-inline-item"><a href="#"><img src={Instagram} alt="Instagram" width="30" /></a></li>
+                  <li className="list-inline-item"><a href="#"><img src={GitHub} alt="GitHub" width="50" /></a></li>
+                  <li className="list-inline-item"><a href="#"><img src={LinkedIn} alt="LinkedIn" width="40" /></a></li>
               </ul>
           </div>
   </div>

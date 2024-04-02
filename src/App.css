@@ -967,12 +967,15 @@ a{
 
 /* Devloper section */
 
-
-.developer-img{
-  width: 500px;
- 
+.developer-img {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+  top: -50px;
+  position: relative;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  /* border-radius: 50%; */
 }
-
 
 /*=================developer page=============*/
 
