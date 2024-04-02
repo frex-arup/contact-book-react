@@ -308,7 +308,7 @@ const Home = () => {
             <div className="row pt-4">
               <div className="col-lg-6">
                 <div className="service-img">
-                  <img src={whychooseusimg}style={{width: '-webkit-fill-available'}}alt />
+                  <img src={whychooseusimg}style={{width: "-webkit-fill-available"}} />
                 </div>
               </div>
               <div className="col-lg-6">
