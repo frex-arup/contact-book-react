@@ -72,7 +72,7 @@ const Header = () => {
                 <li className="nav-item">
                   <Link
                     className="nav-link"
-                    to="/"
+                    to="/contact-book-react"
                     style={{ color: "rgb(0, 0, 0)" }}
                   >
                     Home

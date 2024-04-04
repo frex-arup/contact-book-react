@@ -14,7 +14,7 @@ function App() {
     <Router> 
       <Header/> 
       <Routes>
-        <Route exact path="/" element={<Home/>}/>
+        <Route exact path="/contact-book-react" element={<Home/>}/>
         <Route exact path="/ViewAll" element={<ViewAll/>}/>
         <Route exact path="/Create" element={<Create/>}/>
         <Route exact path="/Developer" element={<Developer/>}/>

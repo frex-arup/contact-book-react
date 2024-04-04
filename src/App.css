@@ -1167,3 +1167,44 @@ html, body {
   transform: translatey(0);
 }
 } */
+
+
+
+/* create */
+
+
+.contact-row {
+  align-items: center;
+  display: flex;
+}
+.contact-list {
+  display: flex;
+  margin: 20px 20px 20px 0;
+}
+.icon {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  width: 38px;
+}
+.contact_form {
+  background: #f7f6f9;
+  border-radius: 10px;
+  padding: 0 20px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.contact-list a {
+  color: #362a78;
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+}
+.socials {
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+}
