@@ -68,16 +68,16 @@ const Footer = () => {
                     </h3>
                     <ul className="list-unstyled f_list">
                       <li className="textstyle">
-                        <Link to="#">Home</Link>
+                        <Link to="/contact-book-react">Home</Link>
                       </li>
                       <li>
-                        <Link to="#"> ViewAll</Link>
+                        <Link to="/ViewAll"> ViewAll</Link>
                       </li>
                       <li>
-                        <Link to="#">Create</Link>
+                        <Link to="/Create">Create</Link>
                       </li>
                       <li>
-                        <Link to="#">Developer</Link>
+                        <Link to="/Developer">Developer</Link>
                       </li>
                       {/* <li><Link to="#">Projects</Link></li>
               <li><Link to="#">My tasks</Link></li> */}

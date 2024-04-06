@@ -71,7 +71,7 @@ const Header = () => {
                       </div> */}
                 <li className="nav-item">
                   <Link
-                    className="nav-link"
+                   class="nav-link active" aria-current="page"
                     to="/contact-book-react"
                     style={{ color: "rgb(0, 0, 0)" }}
                   >
@@ -123,7 +123,7 @@ const Header = () => {
             >
               ×
             </Link>
-            <Link to="/">Home</Link>
+            <Link to="/contact-book-react">Home</Link>
             <Link to="/ViewAll">View All</Link>
             <Link to="/Create">Create</Link>
             <Link to="/Developer">Developer</Link>
