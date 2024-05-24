@@ -1,22 +1,10 @@
 import React, { useEffect } from "react";
-import img from "../image/cardimage.avif";
 import { useState } from "react";
 import { ContactService } from "../services/ContactService";
+import ContactCard from "../component/ContactCard";
 const contactService = new ContactService();
 
-const ContactCard = ({ contact }) => {
-  return (
-    <div className="col">
-      <div className="card h-100">
-        <img src={img} className="card-img-top imgdesign" alt="..." />
-        <div className="card-body imgdesign">
-          <h5 className="card-title">{contact.name}</h5>
-          <p className="card-text">{contact.description}</p>
-        </div>
-      </div>
-    </div>
-  );
-};
+
 
 const ViewAll = () => {
 
@@ -42,6 +30,14 @@ const ViewAll = () => {
             {contacts.map((contact) => (
               <ContactCard key={contact.id} contact={contact} />
             ))}
+          </div>
+          <div className="col-md-3">
+            <div className="card">
+              <div className="card-body">
+                <i className="fa fa-plus"></i>
+                <span> Add Contact</span>
+              </div>
+            </div>
           </div>
         </div>
       </>
