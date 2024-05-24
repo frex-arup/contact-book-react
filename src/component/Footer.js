@@ -30,7 +30,7 @@ const Footer = () => {
                       action="#"
                       className="f_subscribe_two mailchimp"
                       method="post"
-                      noValidate="true"
+                      noValidate={true}
                       _lpchecked={1}
                     >
                       <input

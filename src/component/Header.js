@@ -30,48 +30,10 @@ const Header = () => {
                     alt="Bootstrap"
                   />
                 </a>
-                {/* <div class="dropdown">
-                          <button class="dropbtn">Product <i class="fa fa-caret-down"></i>
-                          </button>
-                          <div class="dropdown-content">
-                              <a to="#">Link 1</a>
-                              <a to="#">Link 2</a>
-                              <a to="#">Link 3</a>
-                          </div>
-                      </div>
-                      <div class="dropdown">
-                          <button class="dropbtn"> Services <i class="fa fa-caret-down">
-                               </i>
-                      </button>
-                          <div class="dropdown-content">
-                              <a to="#">Link 1</a>
-                              <a to="#">Link 2</a>
-                              <a to="#">Link 3</a>
-                          </div>
-                      </div>
-                      <div class="dropdown">
-                          <button class="dropbtn">Porfolio<i class="fa fa-caret-down"> 
-                          </i>
-                      </button>
-                          <div class="dropdown-content">
-                              <a to="#">Link 1</a>
-                              <a to="#">Link 2</a>
-                              <a to="#">Link 3</a>
-                          </div>
-                      </div>
-                      <div class="dropdown">
-                          <button class="dropbtn">About Us<i class="fa fa-caret-down"> 
-                          </i>
-                      </button>
-                          <div class="dropdown-content">
-                              <a to="#">Link 1</a>
-                              <a to="#">Link 2</a>
-                              <a to="#">Link 3</a>
-                          </div>
-                      </div> */}
+                
                 <li className="nav-item">
                   <Link
-                   class="nav-link active" aria-current="page"
+                   className="nav-link active" aria-current="page"
                     to="/contact-book-react"
                     style={{ color: "rgb(0, 0, 0)" }}
                   >
@@ -117,7 +79,7 @@ const Header = () => {
         <div id="header1">
           <div id="mySidenav" className="sidenav">
             <Link
-              to="javascript:void(0)"
+              to="/"
               className="closebtn"
               onClick={closeNav}
             >

@@ -123,7 +123,6 @@ const Home = () => {
                         className="img-fluid"
                         style={{ borderRadius: 10 }}
                       />
-                      {/* <a class="my-animation" href="#"><i class="fas fa-play-circle"></i></a> */}
                     </div>
                   </div>
                 </div>
@@ -221,7 +220,7 @@ const Home = () => {
                       type="button"
                       role="tab"
                       aria-controls="pills-home"
-                      aria-selected="true"
+                      aria-selected={true}
                     >
                       <span className="d-block">
                         <i className="fas fa-home    " />
@@ -328,7 +327,7 @@ const Home = () => {
                           <img
                             src={whychooseusimg}
                             style={{ width: "-webkit-fill-available" }}
-                            alt
+                            alt="altText"
                           />
                         </div>
                       </div>
@@ -377,7 +376,7 @@ const Home = () => {
                           <img
                             src={whychooseusimg}
                             style={{ width: "-webkit-fill-available" }}
-                            alt
+                            alt="altText"
                           />
                         </div>
                       </div>
@@ -426,7 +425,7 @@ const Home = () => {
                           <img
                             src={whychooseusimg}
                             style={{ width: "-webkit-fill-available" }}
-                            alt
+                            alt="altText"
                           />
                         </div>
                       </div>
@@ -475,7 +474,7 @@ const Home = () => {
                           <img
                             src={whychooseusimg}
                             style={{ width: "-webkit-fill-available" }}
-                            alt
+                            alt="altText"
                           />
                         </div>
                       </div>
@@ -524,7 +523,7 @@ const Home = () => {
                           <img
                             src={whychooseusimg}
                             style={{ width: "-webkit-fill-available" }}
-                            alt
+                            alt="altText"
                           />
                         </div>
                       </div>
@@ -573,7 +572,7 @@ const Home = () => {
                           <img
                             src={whychooseusimg}
                             style={{ width: "-webkit-fill-available" }}
-                            alt
+                            alt="altText"
                           />
                         </div>
                       </div>
@@ -624,70 +623,70 @@ const Home = () => {
             <Slider {...settings1}>
               <div className="col h-100 pe-3">
                 <div className="card h-100 ">
-                  <div class="card1">
-                    <div class="content">
-                      <h2 class="title1">Mountain View</h2>
-                      <p class="copy">
+                  <div className="card1">
+                    <div className="content">
+                      <h2 className="title1">Mountain View</h2>
+                      <p className="copy">
                         Check out all of these gorgeous mountain trips with
                         beautiful views of, you guessed it, the mountains
                       </p>
-                      <button class="btn">View Trips</button>
+                      <button className="btn">View Trips</button>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col h-100 pe-3">
                 <div className="card h-100">
-                  <div class="card1">
-                    <div class="content">
-                      <h2 class="title1">Mountain View</h2>
-                      <p class="copy">
+                  <div className="card1">
+                    <div className="content">
+                      <h2 className="title1">Mountain View</h2>
+                      <p className="copy">
                         Check out all of these gorgeous mountain trips with
                         beautiful views of, you guessed it, the mountains
                       </p>
-                      <button class="btn">View Trips</button>
+                      <button className="btn">View Trips</button>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col pe-3 h-100">
                 <div className="card h-100">
-                  <div class="card1">
-                    <div class="content">
-                      <h2 class="title1">Mountain View</h2>
-                      <p class="copy">
+                  <div className="card1">
+                    <div className="content">
+                      <h2 className="title1">Mountain View</h2>
+                      <p className="copy">
                         Check out all of these gorgeous mountain trips with
                         beautiful views of, you guessed it, the mountains
                       </p>
-                      <button class="btn">View Trips</button>
+                      <button className="btn">View Trips</button>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col pe-3 h-100">
                 <div className="card h-100">
-                  <div class="card1">
-                    <div class="content">
-                      <h2 class="title1">Mountain View</h2>
-                      <p class="copy">
+                  <div className="card1">
+                    <div className="content">
+                      <h2 className="title1">Mountain View</h2>
+                      <p className="copy">
                         Check out all of these gorgeous mountain trips with
                         beautiful views of, you guessed it, the mountains
                       </p>
-                      <button class="btn">View Trips</button>
+                      <button className="btn">View Trips</button>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col pe-3 h-100">
                 <div className="card h-100">
-                  <div class="card1">
-                    <div class="content">
-                      <h2 class="title1">Mountain View</h2>
-                      <p class="copy">
+                  <div className="card1">
+                    <div className="content">
+                      <h2 className="title1">Mountain View</h2>
+                      <p className="copy">
                         Check out all of these gorgeous mountain trips with
                         beautiful views of, you guessed it, the mountains
                       </p>
-                      <button class="btn">View Trips</button>
+                      <button className="btn">View Trips</button>
                     </div>
                   </div>
                 </div>
