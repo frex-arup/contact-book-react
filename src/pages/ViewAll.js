@@ -30,15 +30,16 @@ const ViewAll = () => {
             {contacts.map((contact) => (
               <ContactCard key={contact.id} contact={contact} />
             ))}
-          </div>
-          <div className="col-md-3">
-            <div className="card">
-              <div className="card-body">
+            <div className="col ">
+            <div className="card" style={{height:'263px',display:'flex',alignItems:'center'}}>
+              <div className="card-body" style={{position:'relative',top:'100px'}}>
                 <i className="fa fa-plus"></i>
                 <span> Add Contact</span>
               </div>
             </div>
           </div>
+          </div>
+          
         </div>
       </>
     </div>
