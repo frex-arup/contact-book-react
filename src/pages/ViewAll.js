@@ -22,6 +22,22 @@ const ViewAll = () => {
     });
   }
 
+  const deleteContact = (id) => {
+    contactService.deleteContact(id).then((data) => {
+      getContacts();
+    }).catch((error) => {
+      console.error(error);
+    });
+  }
+
+  const addContact = (contact) => {
+    contactService.addContact(contact).then((data) => {
+      getContacts();
+    }).catch((error) => {
+      console.error(error);
+    });
+  }
+
   return (
     <div>
       <>
