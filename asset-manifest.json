@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/contact-book-react/static/css/main.2f120859.css",
-    "main.js": "/contact-book-react/static/js/main.938830d4.js",
+    "main.css": "/contact-book-react/static/css/main.eb566068.css",
+    "main.js": "/contact-book-react/static/js/main.7116bb8c.js",
     "static/js/453.261243d9.chunk.js": "/contact-book-react/static/js/453.261243d9.chunk.js",
     "static/media/IMG_20230810_203433_0515.jpg": "/contact-book-react/static/media/IMG_20230810_203433_0515.0066747ab687370bea0f.jpg",
     "static/media/image.png": "/contact-book-react/static/media/image.09fd5d1291586c71ac4f.png",
     "static/media/aboutimage2.jpg": "/contact-book-react/static/media/aboutimage2.c04bb485cc99210e3c92.jpg",
-    "static/media/cardimage.avif": "/contact-book-react/static/media/cardimage.7172ae7c8e5bb5431f4b.avif",
     "static/media/image1.avif": "/contact-book-react/static/media/image1.107bf77e4092b2c1c4e7.avif",
     "static/media/features.jpg": "/contact-book-react/static/media/features.1cc3eb924424adfddd3d.jpg",
     "static/media/facebooklogo.webp": "/contact-book-react/static/media/facebooklogo.dc9a0ce8f67738dca484.webp",
@@ -17,12 +16,12 @@
     "static/media/slick.eot": "/contact-book-react/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/contact-book-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/contact-book-react/static/media/slick.295183786cd8a1389865.woff",
-    "main.2f120859.css.map": "/contact-book-react/static/css/main.2f120859.css.map",
-    "main.938830d4.js.map": "/contact-book-react/static/js/main.938830d4.js.map",
+    "main.eb566068.css.map": "/contact-book-react/static/css/main.eb566068.css.map",
+    "main.7116bb8c.js.map": "/contact-book-react/static/js/main.7116bb8c.js.map",
     "453.261243d9.chunk.js.map": "/contact-book-react/static/js/453.261243d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f120859.css",
-    "static/js/main.938830d4.js"
+    "static/css/main.eb566068.css",
+    "static/js/main.7116bb8c.js"
   ]
 }
