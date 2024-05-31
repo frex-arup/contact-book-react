@@ -16,7 +16,7 @@ const AddUpdateContactModalDialog = forwardRef(({ onSave }, ref) => {
          * By doing so, we can trigger the modal dialog to open from the parent component when needed.
          */
         openModal(contact) {
-            setContact(contact || { id: null, name: '', email: '', image: '' });
+            setContact(contact || { id: undefined, name: '', email: '', image: '' });
             setShow(true);
         },
         closeModal() {

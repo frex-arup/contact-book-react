@@ -1,0 +1,28 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Dipesh Malvia ",
+      "email": "dipesh@gmail.com",
+      "image": "https://picsum.photos/id/236/200"
+    },
+    {
+      "id": "3",
+      "name": "Maximum1",
+      "email": "max@yahoo.com",
+      "image": "https://picsum.photos/id/234/200"
+    },
+    {
+      "id": "6",
+      "name": "Mike John",
+      "email": "mike@outlook.com",
+      "image": "https://picsum.photos/id/239/200"
+    },
+    {
+      "id": "458e",
+      "name": "Nigam",
+      "email": "vickymuduli3083@gmail.com",
+      "image": ""
+    }
+  ]
+}
